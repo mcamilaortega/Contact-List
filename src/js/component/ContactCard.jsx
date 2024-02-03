@@ -4,10 +4,10 @@ import propTypes from "prop-types";
 const ContactCard = (props) => {
     const contact = props.object;
     return(
-        <div className="card " style={{"maxWidth": "100%"}} >
-            <div className="row g-0">
-                <div className="col-md-4 justify-content-center d-flex align-items-center">
-                    <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=600" style={{"height": "150px"}} className="img-fluid rounded-circle" alt="..."/>
+        <div className="card mt-4" style={{"maxWidth": "100%"}} >
+            <div className="row g-0 pt-4">
+                <div className="col-md-4 justify-content-center d-flex align-items-center pb-4">
+                    <img src="https://images.pexels.com/photos/2308882/pexels-photo-2308882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" style={{"height": "200px","width": "200px"}} className="img-fluid rounded-circle" alt="..."/>
                 </div>
                 <div className="col-md-6">
                     <div className="card-body">

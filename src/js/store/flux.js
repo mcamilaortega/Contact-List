@@ -6,7 +6,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 		actions: {
 			// Use getActions to call a function within a fuction		
 			getContacts: () => {
-				const url = "";
+				const url = "https://playground.4geeks.com/apis/fake/contact/agenda/maria_ortega";
 				fetch(url, {
 					method: "Get"					
 				})
@@ -26,7 +26,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 				})
 			},
 			addContact: (contact, navigate) => {				
-				const url = "https://playground.4geeks.com/apis/fake/contact/agenda/maria_ortega";
+				const url = "https://playground.4geeks.com/apis/fake/contact/";
 				 fetch(url, {
 					method: "Post",
 					headers: {
